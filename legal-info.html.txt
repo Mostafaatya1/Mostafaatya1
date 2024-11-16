@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>معلومات قانونية</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #003366;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+        nav {
+            background-color: #00509e;
+            color: #fff;
+            text-align: center;
+            padding: 0.5em;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1em;
+            font-size: 1.1em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 2em;
+        }
+        h2 {
+            color: #003366;
+        }
+        .section {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 1.5em;
+            margin-bottom: 1em;
+            border-radius: 5px;
+        }
+        .contact-form {
+            background-color: #f4f4f4;
+            padding: 1.5em;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form input, .contact-form textarea, .contact-form button {
+            width: 100%;
+            padding: 0.8em;
+            margin-top: 0.5em;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+        .contact-form button {
+            background-color: #00509e;
+            color: white;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #003366;
+        }
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            margin-top: 2em;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>معلومات قانونية</h1>
+</header>
+
+<nav>
+    <a href="#criminal-law">القانون الجنائي</a>
+    <a href="#civil-law">القانون المدني</a>
+    <a href="#contact">اتصل بنا</a>
+</nav>
+
+<div class="container">
+    <section id="criminal-law" class="section">
+        <h2>القانون الجنائي</h2>
+        <p>
+            القانون الجنائي يشمل كل ما يتعلق بالجرائم والعقوبات المفروضة عليها. يتضمن أيضًا المبادئ العامة مثل
+            البراءة حتى تثبت الإدانة وحقوق المتهم في الحصول على محاكمة عادلة.
+        </p>
+        <ul>
+            <li><strong>حقوق المتهم:</strong> حق الدفاع، الحق في الصمت، الحق في التمثيل القانوني.</li>
+            <li><strong>أنواع الجرائم:</strong> جرائم القتل، السرقة، الاحتيال، الجرائم الإلكترونية.</li>
+            <li><strong>العقوبات:</strong> السجن، الغرامة، الإصلاح المجتمعي.</li>
+        </ul>
+    </section>
+
+    <section id="civil-law" class="section">
+        <h2>القانون المدني</h2>
+        <p>
+            القانون المدني ينظم العلاقات بين الأفراد مثل العقود، الزواج، الملكية، والإرث. يهدف إلى حماية الحقوق المدنية
+            وضمان العدالة بين الأطراف.
+        </p>
+        <ul>
+            <li><strong>أنواع العقود:</strong> عقود البيع، الإيجار، الرهن.</li>
+            <li><strong>قضايا الأحوال الشخصية:</strong> الزواج، الطلاق، النفقة.</li>
+            <li><strong>المنازعات:</strong> كيفية تسوية المنازعات المدنية بشكل قانوني.</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>اتصل بنا</h2>
+        <p>إذا كان لديك أي أسئلة قانونية، يمكنك ملء النموذج أدناه وسنعود إليك في أقرب وقت ممكن.</p>
+        <form class="contact-form">
+            <label for="name">الاسم:</label>
+            <input type="text" id="name" name="name" placeholder="أدخل اسمك" required>
+            <label for="email">البريد الإلكتروني:</label>
+            <input type="email" id="email" name="email" placeholder="أدخل بريدك الإلكتروني" required>
+            <label for="question">السؤال:</label>
+            <textarea id="question" name="question" rows="5" placeholder="اكتب سؤالك هنا" required></textarea>
+            <button type="submit">إرسال</button>
+        </form>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 - موقع المعلومات القانونية. جميع الحقوق محفوظة.</p>
+</footer>
+
+</body>
+</html>
